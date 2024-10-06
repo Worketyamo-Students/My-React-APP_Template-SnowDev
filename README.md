@@ -31,13 +31,13 @@ Suivez les étapes ci-dessous pour démarrer avec ce template :
 ### 1. Clonez le dépôt :
 
 ```bash
-git clone https://github.com/DimitriTedom/nom-du-repo.git
-cd nom-du-repo
+git clone https://github.com/DimitriTedom/nom-du-repo.git](https://github.com/Worketyamo-Students/My-React-APP_Template-SnowDev.git
+cd My-React-APP_Template-SnowDev
 ```
 
 ### 2. Installez les dépendances :
 
-Assurez-vous d'être dans le bon dossier, puis installez toutes les dépendances nécessaires :
+####Assurez-vous d'être dans le bon dossier, puis installez toutes les dépendances nécessaires :
 
 ```bash
 npm install
