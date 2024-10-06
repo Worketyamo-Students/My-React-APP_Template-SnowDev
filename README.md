@@ -37,7 +37,7 @@ cd My-React-APP_Template-SnowDev
 
 ### 2. Installez les dépendances :
 
-####Assurez-vous d'être dans le bon dossier, puis installez toutes les dépendances nécessaires :
+#### Assurez-vous d'être dans le bon dossier, puis installez toutes les dépendances nécessaires :
 
 ```bash
 npm install
