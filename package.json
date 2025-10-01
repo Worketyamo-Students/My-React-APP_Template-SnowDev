@@ -1,14 +1,44 @@
 {
-  "name": "mon-template-react",
+  "name": "my-react-app-template-snowdev",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "A modern React frontend template with TypeScript, Vite, TailwindCSS, ShadCN/UI, Zustand, and more",
+  "author": {
+    "name": "DimitriTedom (SnowDev)",
+    "email": "dimitritedom@example.com",
+    "url": "https://github.com/DimitriTedom"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Worketyamo-Students/My-React-APP_Template-SnowDev.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "tailwindcss",
+    "shadcn",
+    "zustand",
+    "template",
+    "boilerplate",
+    "modern",
+    "production-ready"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "start": "vite preview",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "docker:build": "docker build -t my-react-app .",
+    "docker:build:dev": "docker build --target development -t my-react-app:dev .",
+    "docker:run": "docker run -p 80:80 my-react-app",
+    "docker:run:dev": "docker run -p 5173:5173 -v $(pwd):/app my-react-app:dev",
+    "docker:dev": "npm run docker:build:dev && npm run docker:run:dev"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
